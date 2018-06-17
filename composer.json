@@ -12,9 +12,15 @@
         "name": "Evgeni Razumov",
         "email": "razumov.evgeni@gmail.com"
     }],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:iakta/Laravel-FCM.git"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
-        "brozot/laravel-fcm": "~1.2.5",
+        "brozot/laravel-fcm": "dev-master",
         "illuminate/notifications": "~5.3",
         "illuminate/queue": "~5.1",
         "illuminate/support": "~5.1"
